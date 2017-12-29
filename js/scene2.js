@@ -10,7 +10,7 @@ function scene2() {
 
   // Setup Cast
 
-  // Character 1
+  // Character 1 Ned
   nedContainer = document.createElement('div');
   stage.append(nedContainer);
   nedContainer.style.position = 'absolute';
@@ -28,15 +28,35 @@ function scene2() {
   leather.style.bottom = 0;
   nedContainer.append(leather);
 
-
-
-
-  // Character 2
+  // Character 2  Joffrey
+  joffreyContainer = document.createElement('div');
+  stage.append(joffreyContainer);
+  joffreyContainer.style.position = 'absolute';
+  joffreyContainer.style.width    = '8%';
+  joffreyContainer.style.height   = '30%';
+  joffreyContainer.style.top      = '55%';
+  joffreyContainer.style.left     = '55%';
+  joffrey = document.querySelector('#joffrey');
+  joffrey.style.position = 'absolute';
+  joffrey.style.width = '67%';
+  joffrey.style.top = 0;
+  joffrey.style.right = 0;
+  joffreyContainer.append(joffrey);
+  king = document.querySelector('#king');
+  king.style.position = 'absolute';
+  king.style.bottom = 0;
+  joffreyContainer.append(king);
 
   // Setup Props
 
-  // Prop 1
-
+  // Prop 1 Ned sword
+  sword = document.querySelector('#sword');
+  stage.append(sword);
+  sword.style.position = 'absolute';
+  sword.style.top = '77%';
+  sword.style.left = '31%';
+  sword.style.height = '5%';
+  sword.style.transform = 'rotateY(150deg)';
   // Prop 2
 
   // Action!
