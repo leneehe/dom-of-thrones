@@ -61,16 +61,63 @@ function scene2() {
 
   // Action!
 
-  // Stage direction 1
+  // Stage direction 1 sword thrown
 
   frame(function() {
-
+    sword.style.top = '77%';
+    sword.style.left = '31%';
   })
-
-  // Stage direction 2
 
   frame(function() {
-
+    sword.style.top = '73%';
+    sword.style.left = '36%';
   })
+
+  frame(function() {
+    sword.style.top = '69%';
+    sword.style.left = '41%';
+  })
+
+  frame(function() {
+    sword.style.top = '67%';
+    sword.style.left = '47%';
+  })
+
+  frame(function() {
+    sword.style.top = '62%';
+    sword.style.left = '53%';
+  })
+
+  // Stage direction 2 Head flying out
+  frame(function() {
+    joffrey.style.top = 0;
+    joffrey.style.right = 0;
+    joffrey.style.transform = 'rotateZ(220deg)';
+  })
+
+  frame(function() {
+    joffrey.style.top = '-15%';
+    joffrey.style.left = '90%';
+    joffrey.style.transform = 'rotateZ(140deg)';
+  })
+
+  frame(function() {
+    joffrey.style.top = '0%';
+    joffrey.style.left = '190%';
+    joffrey.style.transform = 'rotateZ(260deg)';
+  })
+
+  frame(function() {
+    joffrey.style.top = '30%';
+    joffrey.style.left = '300%';
+    joffrey.style.transform = 'rotateZ(180deg)';
+  })
+
+  frame(function() {
+    joffrey.style.top = '100%';
+    joffrey.style.left = '350%';
+    joffrey.style.transform = 'rotateZ(100deg)';
+  })
+
 
 }
